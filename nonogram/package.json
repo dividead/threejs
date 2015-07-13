@@ -1,0 +1,17 @@
+{
+  "name": "sudoku2d",
+  "version": "1.0.0",
+  "description": "sudoku2d",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dividead",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-watch": "^4.2.4"
+  }
+}
