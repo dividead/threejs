@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>you can do anything</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+  </script>
+  <div class="info">
+    <div id="k">
+    <a href="https://github.com/dividead">github</a> 
+    <span> || </span>
+    <a href="https://twitter.com/Ux3F3A">twitter</a><br>
+    Click to remove || Left-click + drag to rotate camera || Right-click to drag camera<br>
+    Remove last <span id="color"></span> cube to win<br>
+    Online: <span id="online">1</span> || Cubes destroyed: <span id="total">0</span><br>
+    Team <span style="color:orange">Cat: <span id="cat">0</span></span> || Team <span style="color:cyan">Dog: <span id="dog">0</span></span>
+    </div>
+    <div>Press ENTER to chat:</div>
+    <ul id="messages">
+      <li>( ._.)</li>
+    </ul>
+    <form action="">
+      <input type="text" id="m" autocomplete="off" />
+    </form>
+  </div>
+  <script src="lib/jquery-2.1.4.min.js"></script>
+  <script src="lib/three.min.js"></script>
+  <script src="lib/OrbitControls.js"></script>
+  <script src='lib/threex.windowresize.js'></script>
+  <script src="app.js"></script>
+</body>
+</html>

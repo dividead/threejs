@@ -1,0 +1,40 @@
+body {
+  oveflow: hidden;
+  margin: 0;
+  background: transparent;
+}
+
+canvas {
+  width: 100%;
+  height: 100%
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-moz-scrollbar {
+    display: none;
+}
+
+.info {
+  position: absolute;
+  color: white;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  color: #789922;
+}
+
+li::before {
+  content: "> ";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
